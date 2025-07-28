@@ -1,7 +1,7 @@
 from fastapi import FastAPI, File, UploadFile, Form
 from fastapi.responses import StreamingResponse
 from io import BytesIO
-from app.model import generate_furnished_room  # Adjust based on where the function is located
+from app.model import generate_furnished_room 
 
 app = FastAPI()
 
